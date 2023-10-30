@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+/* Style the timer section */
+.timer, .date {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the timer elements */
+.hour, .minutes, .seconds, .amPm, .dayWeek, .day, .month, .year {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+  }
+}
