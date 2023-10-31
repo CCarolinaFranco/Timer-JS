@@ -37,9 +37,9 @@ if( hours>= 12){
 if(hours === 0){
   hours = 12; 
 }
-setInterval(updateTime, 1000);
-}
 
+}
+setInterval(updateTime, 1000);
 updateTime();
 
 function dayMonthYear() {
